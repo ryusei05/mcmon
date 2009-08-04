@@ -13,7 +13,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-    <title>Memcached Monitor</title>
+    <title>McMon Memcache Monitor</title>
     <link rel="stylesheet" type="text/css" href="styles/clearfix.css" />
     <link rel="stylesheet" type="text/css" href="styles/mcmon.css" />
     <script type="text/javascript" src="scripts/prototype.js"></script>
@@ -21,12 +21,12 @@
 </head>
 <body>
 
-<h1>Memcached Monitor</h1>
+<h1><img src="images/mcmon.png" alt="McMon" style="margin-bottom:-7px;" /> McMon Memcache Monitor</h1>
 
 <div id="controls">
 	Monitor Status: <span id="status" class="stopped">Stopped</span>
-	<a id="start" href="#" onclick="startMonitor();return false;">START</a>
-	<a id="stop" style="display:none;" href="#" onclick="stopMonitor();return false;">STOP</a>
+	<a id="start" href="#" onclick="startMonitor();return false;">-START-</a>
+	<a id="stop" style="display:none;" href="#" onclick="stopMonitor();return false;">-STOP-</a>
 </div>
 
 <?php for ($i = 0; $i < count($servers); $i++) { ?>
