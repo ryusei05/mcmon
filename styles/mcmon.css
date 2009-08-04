@@ -1,0 +1,108 @@
+*
+{
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 10pt;
+	color: #dddddd;
+}
+
+body
+{
+	background-color: #222222;
+}
+
+h1
+{
+	background-color: #444444;
+	color: #999999;
+	font-size: 20pt;
+	padding: 5px;
+}
+
+h2
+{
+	font-size: 12pt;
+}
+
+.running
+{
+	font-weight: bold;
+	color: Blue;
+}
+
+.stopped
+{
+	font-weight: bold;
+}
+
+.error
+{
+	color: Red;
+}
+
+.ok
+{
+	color: Green;
+}
+
+.utilization_bar
+{
+	width: 80px;
+	border: solid 1px #5555bb;
+	height: 10px;
+	margin-top: 2px;
+}
+
+.utilization_bar b
+{
+	display: block;
+	background-color: #5555bb;
+	height: 10px;
+	width: 1px;
+}
+
+#controls
+{
+	border: solid 1px #666666;
+	background-color: #333333;
+	padding: 8px;
+	margin-bottom: 10px;
+}
+
+.server
+{
+	width: 300px;
+	float: left;
+	margin: 10px 10px 10px 0px;
+	border: solid 1px #666666;
+}
+
+.server h2
+{
+	margin: 0px;
+	background-color: #444444;
+	padding: 2px;
+	color: #999999;
+}
+
+.server .fields
+{
+	padding: 10px;
+}
+
+.field label
+{
+	display: block;
+	width: 180px;
+	float: left;
+}
+
+.field span
+{
+	display: block;
+	float: left;
+}
+
+.field
+{
+	border-bottom: dotted 1px #666666;
+}

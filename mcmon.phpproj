@@ -1,0 +1,84 @@
+"General"
+{
+"ProjectIdGuid" = "{2C443325-DBC5-4F19-8F0D-89F7DF77B1AA}"
+"ProjectVersion" = "2.4.1.4263"
+}
+"Configurations"
+{
+    "Local|PHP 4"
+    {
+    "IncludeDirs" = ""
+    }
+    "Local|PHP 5"
+    {
+    "IncludeDirs" = "./libs;c:/php5/includes;c:/php5/pear"
+    }
+    "Remote|PHP 4"
+    {
+    "IncludeDirs" = ""
+    }
+    "Remote|PHP 5"
+    {
+    "IncludeDirs" = ""
+    }
+}
+"Files"
+{
+    "libs\\verysimple\\http\\fileupload.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "libs\\verysimple\\http\\request.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "libs\\json.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "libs\\serverinfo.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "scripts\\mclient.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "scripts\\prototype.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\clearfix.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\mcmon.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "_config.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "index.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "service.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "test.php"
+    {
+    "ProjRelPath" = "T"
+    }
+}
+"ProjStartupServices"
+{
+}
+"Globals"
+{
+}
+"References"
+{
+}
